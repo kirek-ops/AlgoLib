@@ -1,3 +1,6 @@
+/*
+task: https://codeforces.com/gym/100140 (A)
+*/
 #include <bits/stdc++.h>
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
