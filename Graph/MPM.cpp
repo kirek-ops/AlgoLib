@@ -48,8 +48,8 @@ struct MPM {
             for (int id : adj[v]) {
                 if (edges[id].cap - edges[id].flow < 1) continue;
                 if (level[edges[id].u] != -1) continue;
-                level[edges[id].u] = level[v] + 1;
-                q[qt++] = edges[id].u;
+                    level[edges[id].u] = level[v] + 1;
+                    q[qt++] = edges[id].u;
                 }
             }
             return level[t] != -1;
